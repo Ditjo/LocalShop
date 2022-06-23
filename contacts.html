@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <style>
+      /* Chrome, Safari, Edge, Opera */
+      input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+      
+      /* Firefox */
+      input[type=number] {
+        -moz-appearance: textfield;
+
+        
+      }
+      .input{
+        display: flexbox;
+        margin: auto;
+        width: 15%;
+      }
+      </style>
+
+</head>
+<body>
+  <div class="navbar">
+    <ul>
+      <img src="img/f24logo.png" alt="F24-logo">
+        <li><a href="Index.html">Home</a></li>
+        <li><a href="products.html">Our Products</a></li>
+        <li><a class="active" href="contacts.html">Contact</a></li>
+      </ul>
+    </div>
+<br>
+<br>
+<br>
+
+    <div class="input">
+        <label for="name">Name</label><br>
+        <input type="text" name="name"><br><br>
+
+        <label for="email">Email</label><br>
+        <input type="email" name="email"><br><br>
+
+        <label for="tlf">Tlf.</label><br>
+        <input type="number" name="tlf"><br><br>
+
+        <label>Vælg Årsag til kontakt</label>
+        <select name="race">
+            <option value="human">Ris</option>
+            <option value="orc">Ros</option>
+            <option value="elf">Problemer med køb</option>
+            <option value="hobbit">Andet</option>
+
+        </select>
+        <br>
+        <br>
+
+        <label for="text">Beskrivelse</label><br>
+        <!-- <input type="text" name="text"><br><br> -->
+        <textarea rows="7" cols="20"></textarea> <br>
+
+        <input type="submit" name="submit">
+    </div>
+
+</body>
+</html>

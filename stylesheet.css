@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(206, 203, 203);
+    background-image: linear-gradient(rgb(242, 242, 242), rgb(125, 139, 149));
+    min-height: 1000px;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar style*/
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+  }
+  
+  .navbar li {
+    display:inline;
+  }
+  
+  .navbar li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navbar li a:hover {
+    background-color: rgb(214, 214, 214);
+  }
+  .active {
+      background-color: rgb(9, 128, 0);
+  }
+  .navbar img {
+    height: 46px;
+    float: left;
+    border: 1px solid #333;
+  }
